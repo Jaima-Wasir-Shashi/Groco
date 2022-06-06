@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dataEntry/dataEntry.css">
+    <title>Data Entry</title>
+</head>
+<body onload="showProducts()">
+    <form action="" class="form">
+        <h2 class="note" id="notify">Data Inserted successfully</h2>
+        <h2 class="note-error" id="notify-error">Data Already Stored in DB</h2>
+        <h3>Data Entry Form</h3>
+        <label for="">
+            <h4>Name</h4>
+            <input id="name" type="text" value="">
+        </label>
+        <label for="">
+            <h4>Img</h4>
+            <input id="img" type="text" value="">
+        </label>
+        <label for="">
+            <h4>Category</h4>
+            <input id="category" type="text" value="">
+        </label>
+        <label for="">
+            <h4>Available Quantity</h4>
+            <input id="available" type="number" value="">
+        </label>
+        <label for="">
+            <h4>Price</h4>
+            <input id="price" type="number" value="">
+        </label>
+        <label for="">
+            <h4>Offer Price</h4>
+            <input id="offer-price" type="number" value="">
+        </label>
+        <button id="btn" class="btn" type="submit">Insert</button>
+    </form>
+
+
+
+
+
+    <script src="./dataEntry/dataEntry.js"></script>
+</body>
+</html>

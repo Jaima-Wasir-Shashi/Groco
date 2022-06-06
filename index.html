@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="show()">
+    <!--------------- Header ----------------------->
+    <header>
+    <div class="banner">
+       <div class="navbar">
+           
+           <h2 class="logo">!Groco</h2>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#features">Features</a></li>
+               <li><a href="#category">Category</a></li>
+               <li><a href="#Popular_Items">Popular Items</a></li>
+               <li><a href="#offer-product">Offer</a></li>
+               <li><a href="#review">Review</a></li>
+               <li><a href="#contact">Contact</a></li>         
+           </ul>
+           <div class="icons">
+
+            <li class="fas fa-bars" id="menu-btn"></li>
+            <li class="fas fa-search" id="search-btn-btn"></li>
+            <li class="fas fa-shopping-cart" id="cart-btn"></li>
+            <a href="login.html" class="btn">Login</a>
+    
+           </div>
+       </div>
+       
+       <div class="content">
+           <h1>Happy Days Grocery</h1>
+           <P>We’re the Happy Days Grocery. <br>Here you can have your desired grocery items easily.  
+            <br>We believe in only sourcing ethically farmed vegetables, fruits, meats and dairy products. 
+           </P>
+           <a href="#">Shop Now</a>
+       </div>
+    </div>
+    </header>
+    <!--------------- Header complete ----------------------->
+    <!-- features section starts  -->
+
+    <section id="features">
+
+        <div class="heading">
+
+            <h1> Our <span> features</span></h1>
+            
+        </div>
+
+    <div class="box-container">
+
+        <div class="box1">
+            <img src="fresh.jpeg" alt="">
+            <h3>fresh and organic</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit. Deserunt, earum!</p>
+            <a href="fresh.html" class="btn">read more</a>
+        </div>
+
+        <div class="box2">
+            <img src="free delivery.jpeg" alt="">
+            <h3>free delivery</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Deserunt, earum!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box3">
+            <img src="easy payment.jpeg" alt="">
+            <h3>easy payments</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur<br> adipisicing elit. Deserunt, earum!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+    </section>
+
+<!-- features section ends -->
+    <!--------------- Our category----------------------->
+    <section id="category">
+
+        <div class="heading2">
+
+            <h1> Our<span> Categories</span></h1>
+            
+        </div>
+
+    <div class="box-container1">
+
+        <div class="box4">
+            <a href="category.html"><img src="meat1.jpg" alt=""></a>
+            <a href="category.html" class="btn"><h3>Meat, Poultry & <br> Seafood</h3></a>
+        </div>
+
+        <div class="box5">
+            <img width="250" height="170" src="snacks1.jpg" alt="">
+            <a href="snacks.html" class="btn"><h3>Snacks & Candies</h3></a>
+            
+        </div>
+
+        <div class="box6">
+            <img src="frozen1.jpg" alt="">
+            <a href="frozen.html" class="btn"><h3>Frozen Products</h3></a>
+            
+        </div>
+
+        <div class="box7">
+            <img src="dairy1.jpg" alt="">
+            <a href="Dairy_Product.html" class="btn"><h3>Dairy Product</h3></a>
+        </div>
+
+        <div class="box8">
+            <img src="nuts1.jpg" alt="">
+            <a href="Dry_Fruits.html" class="btn"><h3>Dried Fruits,Seeds &<br>
+                Nuts</h3></a>
+        </div>
+    </div>
+    <div class="all-products">
+        <a href="category.html" class="btn">View all</a>
+    </div>
+    </section>
+    <!---------------end Our category----------------------->
+    <!---------------popular items----------------------->
+    <section id="Popular_Items">
+        <div class="heading3">
+
+            <h1>Popular<span> Items</span></h1>
+            
+        </div>
+        <div class="slider">
+            <div id="leftarrow" onclick="moveleft()">
+                <button>&lt;</button>
+            </div>
+
+            <div class="slider-1" id="c1">
+                <img width="260" height="230" src="popular_items/p1.jpg" alt="">
+                <h3>Chicken Samosa</h3>
+                <div class="price"> Price- ৳ 150 </div>
+                <div class="stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="slider-1" id="c2">
+                <img width="260" height="230" src="popular_items/p2.jpg" alt="">
+                <h3>Cream</h3>
+                <div class="price"> Price- ৳ 270 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+    
+            <div class="slider-1" id="c3">
+                <img width="260" height="230" src="popular_items/p3.png" alt="">
+                <h3>Pink Salt Chips</h3>
+                <div class="price"> Price- ৳ 30 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="slider-1" id="c4">
+                <img width="260" height="230" src="popular_items/p4.jpg" alt="">
+                <h3>Shami Kabab</h3>
+                <div class="price"> Price- ৳ 300 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="slider-1" id="c5">
+                <img width="260" height="230" src="popular_items/p5.jpg" alt="">
+                <h3>Chicken Finger</h3>
+                <div class="price"> Price- ৳ 200 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="slider-1" id="c6">
+                <img width="260" height="230" src="popular_items/p6.jpg" alt="">
+                <h3>Foster Clarks</h3>
+                <div class="price">Price- ৳ 100 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="slider-1" id="c7">
+                <img width="260" height="230" src="popular_items/p7.jpg" alt="">
+                <h3>Dal Puri</h3>
+                <div class="price"> Price- ৳ 50 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="slider-1" id="c8">
+                <img width="260" height="230" src="popular_items/p8.jpg" alt="">
+                <h3>Mozarela Cheese</h3>
+                <div class="price"> Price- ৳ 250 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div id="rightarrow" onclick="moveRight()">
+
+                <button>&gt;</button>
+    
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---------------popular items Complete----------------------->
+    <!---------------Shop Your Lifestyle----------------------->
+
+    <section id="Lifestyle">
+
+        <div class="heading4">
+
+            <h1>Shop By <span>Your Lifestyle</span></h1>
+            
+        </div>
+        <div class="part1">
+
+            <div class="pic1">
+               <a href="organic.html"><img src="life/organic.png" alt=""></a>
+            </div>
+    
+            <div class="pic2">
+               <a href="vegan.html"><img  src="life/vegan.png" alt=""></a>
+                
+            </div>
+
+        </div>
+
+        <div class="part2">
+
+            <div class="pic3">
+                <a href="Gluten_free.html"><img src="life/gluten.png" alt=""></a>
+            </div>
+    
+            <div class="pic4">
+                <a href="Non_gmo.html"><img src="life/non-gmo.png" alt=""></a>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---------------Shop Your Lifestyle complete----------------------->
+
+    <!---------------Offer Page----------------------->
+
+
+    <!---------------Offer Page complete----------------------->
+    <section id="offer-product">
+        <div class="heading5">
+
+            <h1> Offer <span> Products </span></h1>
+
+        </div>
+        <div class="half_offer_banner">
+
+            <img src="offer_items/Half Price.jpg" alt="">
+
+        </div>
+        <div class="half_price1">
+            <div class="Product_1">
+                <img src="offer_items/half1.jpg" alt="">
+                <h3>Pure Honey</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 100)</s> <h2>Offer Price-৳ 50</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="Product_1">
+                <img src="offer_items/half2.jpg" alt="">
+                <h3>Mozzarella Cheese</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 100)</s> <h2>Offer Price-৳ 50</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="Product_1">
+                <img src="offer_items/half3.jpeg" alt="">
+                <h3>Goldenclass Chocolate</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 100)</s> <h2>Offer Price-৳ 50</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="Product_1">
+                <img src="offer_items/hal4.webp" alt="">
+                <h3>Coffee</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 100)</s> <h2>Offer Price-৳ 50</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            
+            <div class="Product_1">
+                <img src="offer_items/half5.jpeg" alt="">
+                <h3>Biriyani Masala</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 100)</s> <h2>Offer Price-৳ 50</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            
+        </div>
+
+        <div class="half_price2">
+            <div class="Product_1">
+                <img src="offer_items/half6.jpeg" alt="">
+                <h3>CowGhee</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 100)</s> <h2>Offer Price-৳ 50</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="Product_1">
+                <img src="offer_items/half7.jpeg" alt="">
+                <h3>Marks Powder Milk</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 100)</s> <h2>Offer Price-৳ 50</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="Product_1">
+                <img src="offer_items/half8.jpg" alt="">
+                <h3>Yogurt</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 220)</s> <h2>Offer Price-৳ 150</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="Product_1">
+                <img src="offer_items/half9.jpg" alt="">
+                <h3>Fish curtlet</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 99.00)</s> <h2>Offer Price-৳ 75</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            
+            <div class="Product_1">
+                <img src="offer_items/half10.jpg" alt="">
+                <h3>Fish curtlet</h3>
+                <p>250(±50) Gm<br> <s>Regular Price(৳ 279)</s> <h2>Offer Price-৳ 250</h2></p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            
+        </div>
+        <div class="Buy1get1_offer_banner">
+
+            <img src="offer_items/Buy1 Get1.jpg" alt="">
+
+        </div>
+    <div class="Buy1_Get1">
+        <div class="Product_1">
+            <img src="offer_items/b1g1.jpg" alt="">
+            <h3>CBL Munchee <br>Choco Mo</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="offer_items/b1g2.jpg" alt="">
+            <h3>CBL Munchee <br>Choco Kalo</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="offer_items/b1g3.jpg" alt="">
+            <h3>CBL Munchee Next Milk Cream</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="offer_items/b1g4.jpg" alt="">
+            <h3>CBL Munchee <br>Stix Strawberry</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+        <div class="Product_1">
+            <img src="offer_items/b1g5.jpg" alt="">
+            <h3>CBL Munchee<br> Next Chocolate</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+    </div>
+
+    <div class="Buy2_Get2">
+        <div class="Product_1">
+            <img src="offer_items/b1g6.jpg" alt="">
+            <h3>Senitizer</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="offer_items/b1g7.jpg" alt="">
+            <h3>Stix</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="offer_items/b1g8.JPG" alt="">
+            <h3>Pasta</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="offer_items/b1g9.jpeg" alt="">
+            <h3>Myonnaise</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+        <div class="Product_1">
+            <img src="offer_items/b1g10.jpg" alt="">
+            <h3>Stix</h3>
+            <p>200 Ml (Buy1 Get1 Free) <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+    </div>
+    </section>
+    <!---------------Offer page complete----------------------->
+
+    <!---------------Brand shop----------------------->
+    <section id="Brand_shop">
+
+        <div class="heading6">
+
+            <h1> Brand <span> Shop </span></h1>
+
+        </div>
+
+        <div class="Brand_nam1">
+            <div class="Shop1">
+                <a href="#"><img src="Brand/nestle.png" alt=""></a>
+            </div>
+    
+            <div class="Shop1">
+                <a href="#"><img src="Brand/godrej.jpg" alt=""></a>
+            </div>
+    
+            <div class="Shop1">
+                <a href="#"><img src="Brand/Unilever.jpg.png" alt=""></a>
+            </div>
+
+            <div class="Shop1">
+                <a href="#"><img src="Brand/marks.png" alt=""></a>
+            </div>
+            
+        </div>
+
+        <div class="Brand_nam2">
+            <div class="Shop1">
+                <a href="#"><img src="Brand/shop.png" alt=""></a>
+            </div>
+    
+            <div class="Shop1">
+                <a href="#"><img src="Brand/health.png" alt=""></a>
+            </div>
+    
+            <div class="Shop1">
+                <a href="#"><img src="Brand/marico.png" alt=""></a>
+            </div>
+
+            <div class="Shop1">
+                <a href="#"><img src="Brand/dabur.png" alt=""></a>
+            </div>
+            
+        </div>
+
+    </section>
+    <!---------------Brand shop complete----------------------->
+    <!---------------Cooking and Baking essential----------------------->
+    <section id="cooking_essrntial">
+
+        
+    <div class="heading7">
+
+        <h1> Cooking and <span> Baking Essential </span></h1>
+
+    </div>
+
+    <div class="Buy1_Get1">
+        <div class="Product_1">
+            <img src="cooking/c1.jpg" alt="">
+            <h3>Bashmati Rice</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c2.jpg" alt="">
+            <h3>Chinigura Rice</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c3.jpg" alt="">
+            <h3>Oil</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c4.jpg" alt="">
+            <h3>Saffola Oil</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+        <div class="Product_1">
+            <img src="cooking/c5.jpg" alt="">
+            <h3>Radhuni Moshla</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+    </div>
+
+    <div class="Buy2_Get2">
+        <div class="Product_1">
+            <img src="cooking/c6.jpg" alt="">
+            <h3>Fish Moshla</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c7 (1).jpg" alt="">
+            <h3>Kabab Moshla</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c8.jpg" alt="">
+            <h3>Crispy Fried</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c9.jpg" alt="">
+            <h3>Baking Powder</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+        <div class="Product_1">
+            <img src="cooking/c10.jpg" alt="">
+            <h3>Custured Powder</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+    </div>
+
+    <div class="Buy2_Get2">
+        <div class="Product_1">
+            <img src="cooking/c11.jpg" alt="">
+            <h3>Foster Clarks</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c12.jpg" alt="">
+            <h3>Vanilla Essence</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c13.jpg" alt="">
+            <h3>Foster Clarks Banana & Strowbery</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="Product_1">
+            <img src="cooking/c14.jpg" alt="">
+            <h3>Chini go</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+        <div class="Product_1">
+            <img src="cooking/c15.jpg" alt="">
+            <h3>Sugar Free</h3>
+            <p>250(±50) Gm<br> <s>৳ 100</s> <h2>৳ 50</h2></p>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        
+    </div>
+    </section>
+
+    <!---------------Cooking and Baking essential complete----------------------->
+
+    <!---------------Review----------------------->
+    
+    <section id="review">
+
+        <div class="heading">
+
+            <h1> Customer's <span>Review</span></h1>
+            
+        </div>
+
+    <div class="review1">
+
+        <div class="r1">
+            <img src="pic1.jpg.jpeg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Unde sunt fugiat dolore <br>ipsum id est maxime ad tempore quasi tenetur.</p>
+            <h3>Deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="r1">
+            <img src="pic2.jpg.jpg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Unde sunt fugiat dolore <br>ipsum id est maxime ad tempore quasi tenetur.</p>
+            <h3>Leah</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="r1">
+            <img src="pic3.jpg.jpg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Unde sunt fugiat dolore <br>ipsum id est maxime ad tempore quasi tenetur.</p>
+            <h3>Edward</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="review2">
+
+        <div class="r1">
+            <img src="pic4.jpg.jpg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Unde sunt fugiat dolore <br>ipsum id est maxime ad tempore quasi tenetur.</p>
+            <h3>Shawn</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="r1">
+            <img src="pic5.jpg.jpg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Unde sunt fugiat dolore <br>ipsum id est maxime ad tempore quasi tenetur.</p>
+            <h3>Malendaz</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="r1">
+            <img src="pic6.jpg.jpg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Unde sunt fugiat dolore <br>ipsum id est maxime ad tempore quasi tenetur.</p>
+            <h3>Veronica</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+        </div>
+
+    </div>
+
+    </section>
+    <!-- review section ends -->
+    <!-- contact section starts  -->
+    
+    <section class="contact" id="contact">
+    
+        <h1 class="heading"> Contact <span>Us</span> </h1>
+    
+        <div class="row">
+    
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+    
+            <div class="image">
+                <img src="pic9.jpg" alt="">
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- contact section ends -->
+    
+    <!-- footer section starts  -->
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Groco </h4>
+                    <ul>
+                        <li><a href="#">Lorem Ipsum Dolor, Sit Amet</a></li>
+                        <li><a href="#">Consectetur Adipisicing Elit. Aliquam,<br>Saepe.</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><a href="#">+123-456-7890</a></li>
+                        <li><a href="#">+111-222-3333</a></li>
+                        <li><a href="#">Arpabarua24@gmail.com</a></li>
+                        <li><a href="#">Chittagong, Bangladesh - 400104</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Review</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    
+    <!-- footer section ends -->
+    
+    
+    
+    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <!---------------Review----------------------->
+
+    <!---------------java script----------------------->
+    <script type="text/javascript">
+        var left=1;
+        var right=4;
+        function show() {
+            for(i=left;i<=right;i++)
+            {
+                document.getElementById("c"+i).style.display="inline-block";
+
+            }
+        }
+        function moveleft()
+        {
+            if(left<=4 && right<=7)
+            {
+                document.getElementById("c"+left).style.display="none";
+                left+=1;
+                right+=1;
+                for(i=left;i<=right;i++)
+                {
+                    document.getElementById("c"+i).style.display="inline-block";
+
+                }
+            }
+            else
+                return;
+        }
+
+        function moveRight()
+        {
+            if(left>=2 && right>=5)
+            {
+                document.getElementById("c"+right).style.display="none";
+                left-=1;
+                right-=1;
+                for(i=left;i<=right;i++)
+                {
+                    document.getElementById("c"+i).style.display="inline-block";
+
+                }
+            }
+            else
+                return;
+        }
+    </script>
+</body>
+</html>
